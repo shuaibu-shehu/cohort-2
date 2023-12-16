@@ -4,7 +4,16 @@
 */
 
 function isPalindrome(str) {
-  return true;
+ let str2=str.toLowerCase().replace(/\s*[!?., ]/g,"");
+ str2=str2.split('').reverse().join('');
+ console.log(str2);
+ str=str.toLowerCase().replace(/\s*[!?,. ]/g,'');
+ console.log(str);
+ if(str===str2){
+  return true
+ } else{
+  return false
+ }
 }
-
+console.log(isPalindrome('Mr. Owl ate my metal worm.'));
 module.exports = isPalindrome;

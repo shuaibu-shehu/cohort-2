@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "coding",
+    "decription": "i am gonna code today definately",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "title": "going to market",
+    "decription": "i am gonna but mouse in sabon gari market today definately",
+    "completed": false
+  },
+  {
+    "title": "going to school",
+    "decription": "i am going to school to submit my assignment",
+    "completed": false,
+    "id": 4
+  },
+  {
+    "title": "going to school",
+    "decription": "i am going to school to submit my assignment",
+    "completed": false,
+    "id": 5
+  },
+  {
+    "id": 6,
+    "title": "going to school",
+    "decription": "i am going to school to submit my assignment",
+    "completed": false
+  }
+]
